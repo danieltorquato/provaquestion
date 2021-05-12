@@ -1,0 +1,193 @@
+body{
+    background-color: rgb(197, 185, 19);
+}
+
+@font-face {
+    font-family: Ultra;
+    src: url(Ultra/Ultra-Regular.ttf);
+}
+
+h1{
+    font-family: Ultra;
+    text-align: center;
+    -webkit-text-stroke: rgb(0, 0, 0) 1px;
+    color: rgb(182, 172, 37);
+}
+
+h2{
+    font-family: Ultra;
+    text-align: center;
+    color: rgb(28, 159, 168);
+    -webkit-text-stroke: black 1px;
+}
+div.geral{
+    background-color: rgba(57, 226, 170, 0.336);
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+p.texto{
+    position: relative;
+    top: 5%;
+    font-family: Ultra;
+    text-align: center;
+    color: rgb(28, 159, 168);
+    -webkit-text-stroke: black 1px;
+    font-size: 25px;
+}
+
+.inputa{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputb{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputc{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputd{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.botaovoltar{
+    border-radius: 100px;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 22%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: Ultra;
+}
+input:hover{
+    background-color: blueviolet;
+}
+input:active{
+    background-color: #240541;
+    box-shadow: 0 0 0 #240541; inset: 3px 3px 3px #240541;
+    transform: translate(3px 3px);
+}
+p.perguntas{
+font-family: cursive;
+font-size: 18px;
+position: relative;
+top: 7%;
+left: 5%;
+width: 900px;
+max-height: 200px;
+}
+div.acertou{
+    background-color: rgba(128, 238, 26, 0.932);
+    position: absolute;
+    bottom: 15%;
+    left: 10%;
+    width: 80%;
+    height: 500px;
+}
+div.certoimg{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+div.erradoimg{
+    position: absolute;
+    left: 35%;
+    top: 20%;
+}
+input.proximaquestao{
+    border-radius: 10px;
+    width: 50%;
+    height: 10%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+
+}
+div.errou{
+    background-color: rgba(226, 25, 25, 0.932);
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+    width: 80%;
+    height: 500px;
+}
+input.tentarnovamente{
+    border-radius: 10px;
+    width: 50%;
+    height: 10%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 90%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+
+}

@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(197, 185, 19);
+}
+
+@font-face {
+    font-family: Ultra;
+    src: url(Ultra/Ultra-Regular.ttf);
+}
+
+h1{
+    font-family: Ultra;
+    text-align: center;
+    -webkit-text-stroke: rgb(0, 0, 0) 1px;
+    color: rgb(182, 172, 37);
+}
+
+h2{
+    font-family: Ultra;
+    text-align: center;
+    color: rgb(28, 159, 168);
+    -webkit-text-stroke: black 1px;
+}
+div.geral{
+    background-color: blanchedalmond;
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+p.texto{
+    font-family: Ultra;
+    text-align: center;
+    position: relative;
+    top: 5%;
+}
+
+.inputa{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputb{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputc{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputd{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(17, 108, 131);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+input:hover{
+    background-color: blueviolet;
+}
+input:active{
+    background-color: #c542e6;
+    box-shadow: 0 0 0 #c542e6; inset: 3px 3px 3px #c542e6;
+    transform: translate(3px 3px);
+}
+p.perguntas{
+font-family: cursive;
+font-size: 18px;
+position: relative;
+top: 7%;
+left: 5%;
+width: 900px;
+max-height: 200px;
+}

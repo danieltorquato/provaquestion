@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Quiz</title>
+</head>
+<body>
+    <h1>Quiz</h1>
+ <h2>Teste seu Conhecimento em Inglês</h2>
+ <div class="geral">
+     <p class="texto">Pergunta 7</p>
+     <p class="perguntas" id="perguntas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim at ab neque accusantium laboriosam dolore repellat cum architecto odit! Sit voluptates dolore molestias optio necessitatibus, reprehenderit eos minima itaque.s Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse nulla unde sit labore quia voluptatum illo maxime ea! Suscipit expedita et quasi ullam rem? Quaerat unde aliquam assumenda itaque!</p>
+     <div class="respostas" id="respostas">
+     <div><input type="button" value="A)" class="inputa" id="a"></div>
+     <div><input type="button" value="B)" class="inputb" id="b" onclick="respostaCerta()"></div>
+     <div><input type="button" value="C)" class="inputc" id="c"></div>
+     <div><input type="button" value="D)" class="inputd" id="d"></div>
+     <div><input type="button" value="Menu" class="botaovoltar" onclick="voltarAoMenu()"></div>
+     
+     </div>
+     
+ </div>
+ <div class="acertou" id="acertou" style="display: none;">
+     <div class="certoimg"><img src="certo1.png" alt=""></div>
+     <div class="vitoria"><h1>Você acertou</h1></div>
+     <input type="button" value="Voltar ao Menu" class="proximaquestao" id="proximaquestao" onclick="voltarAoMenu()">
+ </div>
+ <div class="errou" id="errou" style="display: none;">
+    <div class="erradoimg"><img src="errado.png" alt=""></div>
+    <div class="derrota"><h1>Você errou</h1></div>
+    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente">
+</div>
+ <script src="script.js"></script>
+</body>
+</html>
