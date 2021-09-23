@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(197, 185, 19);
+    background-image: linear-gradient(to right, rgb(47, 243, 21), rgba(0, 38, 255, 0.582));
 }
 
 @font-face {
@@ -41,7 +41,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 40%;
     transform: translate(-50%, -50%);
     background-color: rgb(19, 83, 221);
     box-shadow: black 2px 2px 2px;
@@ -57,7 +57,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 50%;
     transform: translate(-50%, -50%);
     background-color: rgb(19, 83, 221);
     box-shadow: black 2px 2px 2px;
@@ -73,7 +73,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 60%;
     transform: translate(-50%, -50%);
     background-color: rgb(19, 83, 221);
     box-shadow: black 2px 2px 2px;
@@ -89,7 +89,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 50%;
-    top: 80%;
+    top: 70%;
     transform: translate(-50%, -50%);
     background-color: rgb(17, 108, 131);
     box-shadow: black 2px 2px 2px;
@@ -113,4 +113,8 @@ top: 7%;
 left: 5%;
 width: 900px;
 max-height: 200px;
+}
+h1.texto{
+    position: relative;
+    top: 15%;
 }

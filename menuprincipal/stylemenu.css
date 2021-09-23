@@ -1,6 +1,7 @@
 body{
-    background-color: rgb(197, 185, 19);
+    background-image: linear-gradient(to right, rgb(47, 243, 21), rgba(0, 38, 255, 0.582));
 }
+
 
 @font-face {
     font-family: Ultra;
