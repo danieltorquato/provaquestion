@@ -24,7 +24,7 @@ h2{
 div.geral{
     background-color: rgba(57, 226, 170, 0.336);
     width: 1000px;
-    height: 600px;
+    height: 850px;
     margin: auto;
 }
 p.texto{
@@ -45,7 +45,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 50%;
-    top: 50%;
+    top: 80%;
     transform: translate(-50%, -50%);
     background-color: rgb(19, 83, 221);
     box-shadow: black 2px 2px 2px;
@@ -61,7 +61,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 50%;
-    top: 60%;
+    top: 90%;
     transform: translate(-50%, -50%);
     background-color: rgb(19, 83, 221);
     box-shadow: black 2px 2px 2px;
@@ -77,7 +77,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 50%;
-    top: 70%;
+    top: 100%;
     transform: translate(-50%, -50%);
     background-color: rgb(19, 83, 221);
     box-shadow: black 2px 2px 2px;
@@ -93,7 +93,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 50%;
-    top: 80%;
+    top: 110%;
     transform: translate(-50%, -50%);
     background-color: rgb(19, 83, 221);
     box-shadow: black 2px 2px 2px;
@@ -108,7 +108,7 @@ p.texto{
     white-space: normal !important;
     position: absolute;
     left: 22%;
-    top: 88%;
+    top: 118%;
     transform: translate(-50%, -50%);
     background-color: rgb(19, 83, 221);
     box-shadow: black 2px 2px 2px;
@@ -127,7 +127,7 @@ p.perguntas{
 font-family: cursive;
 font-size: 18px;
 position: relative;
-top: 7%;
+top: -2%;
 left: 5%;
 width: 900px;
 max-height: 200px;
@@ -191,4 +191,130 @@ input.tentarnovamente{
     font-family: cursive;
     font-size: 15px;
 
+}
+.planilha{
+    width: 600px;
+    height: 270px;
+    position: relative;
+    top: 3%;
+    left: 20%;
+}
+div.geral1{
+    background-color: rgba(57, 226, 170, 0.336);
+    width: 1000px;
+    height: 600px;
+    margin: auto;
+}
+.inputa1{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputb1{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputc1{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.inputd1{
+    border-radius: 10px;
+    width: 50%;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: cursive;
+    font-size: 15px;
+}
+.botaovoltar1{
+    border-radius: 100px;
+    height: 4%;
+    outline: none;
+    white-space: normal !important;
+    position: absolute;
+    left: 22%;
+    top: 88%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(19, 83, 221);
+    box-shadow: black 2px 2px 2px;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    font-family: Ultra;
+}
+p.perguntas1{
+    font-family: cursive;
+    font-size: 18px;
+    position: relative;
+    top: 1%;
+    left: 5%;
+    width: 900px;
+    max-height: 200px;
+    }
+    p.perguntas2{
+        font-family: cursive;
+        font-size: 18px;
+        position: relative;
+        top: -1%;
+        left: 5%;
+        width: 900px;
+        max-height: 200px;
+        }
+        .planilha1{
+            width: 700px;
+            height: 100px;
+            position: relative;
+            top: 3%;
+            left: 15%;
+        }
+.listao{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.planilha2{
+    width: 700px;
+    height: 150px;
+    position: relative;
+    top: 8%;
+    left: 15%;
 }

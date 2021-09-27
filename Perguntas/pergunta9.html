@@ -6,19 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
-    <title>Quiz</title>
+    <title>Prova</title>
 </head>
 <body>
-    <h1>Quiz</h1>
- <h2>Teste seu Conhecimento em Inglês</h2>
+    <h1>Prova</h1>
+ <h2>Teste seu nível de Excel</h2>
  <div class="geral">
-     <p class="texto">Pergunta 6</p>
+     <p class="texto">Pergunta 9</p>
      <p class="perguntas" id="perguntas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim at ab neque accusantium laboriosam dolore repellat cum architecto odit! Sit voluptates dolore molestias optio necessitatibus, reprehenderit eos minima itaque.s Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse nulla unde sit labore quia voluptatum illo maxime ea! Suscipit expedita et quasi ullam rem? Quaerat unde aliquam assumenda itaque!</p>
      <div class="respostas" id="respostas">
-     <div><input type="button" value="A)" class="inputa" id="a"></div>
-     <div><input type="button" value="B)" class="inputb" id="b" onclick="respostaCerta()"></div>
-     <div><input type="button" value="C)" class="inputc" id="c"></div>
-     <div><input type="button" value="D)" class="inputd" id="d"></div>
+     <div><input type="button" value="A)" class="inputa" id="a" onclick="respostaErrada()"></div>
+     <div><input type="button" value="B)" class="inputb" id="b" onclick="respostaErrada()"></div>
+     <div><input type="button" value="C)" class="inputc" id="c" onclick="respostaErrada()"></div>
+     <div><input type="button" value="D)" class="inputd" id="d"  onclick="respostaErrada()"></div>
      <div><input type="button" value="Menu" class="botaovoltar" onclick="voltarAoMenu()"></div>
      
      </div>
@@ -27,12 +27,12 @@
  <div class="acertou" id="acertou" style="display: none;">
      <div class="certoimg"><img src="certo1.png" alt=""></div>
      <div class="vitoria"><h1>Você acertou</h1></div>
-     <input type="button" value="Próxima Questão" class="proximaquestao" id="proximaquestao" onclick="proximaQuestao6()">
+     <input type="button" value="Próxima Questão" class="proximaquestao" id="proximaquestao" onclick="proximaQuestao9()">
  </div>
  <div class="errou" id="errou" style="display: none;">
     <div class="erradoimg"><img src="errado.png" alt=""></div>
     <div class="derrota"><h1>Você errou</h1></div>
-    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente">
+    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente"onclick="tenteNovamente9()">
 </div>
  <script src="script.js"></script>
 </body>

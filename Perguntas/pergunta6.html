@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Prova</title>
+</head>
+<body>
+    <h1>Prova</h1>
+ <h2>Teste seu nível de Excel</h2>
+ <div class="geral1">
+     <p class="texto">Pergunta 6</p><br><br>
+     <p class="perguntas" id="perguntas"> Onde encontro funções que me oferecem soluções para Engenharia?</p>
+     <div class="respostas" id="respostas">
+     <div><input type="button" value="A) Fórmulas -> Matemática e Trigonometria -> Engenharia" class="inputa1" id="a" onclick="respostaErrada()"></div>
+     <div><input type="button" value="B) Dados -> Matemática e Trigonometria -> Engenharia" class="inputb1" id="b" onclick="respostaErrada()"></div>
+     <div><input type="button" value="C) Fórmulas -> Mais Funções -> Engenharia" class="inputc1" id="c" onclick="respostaCerta()"></div>
+     <div><input type="button" value="D) Dados -> Mais Funções -> Engenharia" class="inputd1" id="d"  onclick="respostaErrada()"></div>
+     <div><input type="button" value="Menu" class="botaovoltar1" onclick="voltarAoMenu()"></div>
+     
+     </div>
+     
+ </div>
+ <div class="acertou" id="acertou" style="display: none;">
+     <div class="certoimg"><img src="certo1.png" alt=""></div>
+     <div class="vitoria"><h1>Você acertou</h1></div>
+     <input type="button" value="Próxima Questão" class="proximaquestao" id="proximaquestao" onclick="proximaQuestao6()">
+ </div>
+ <div class="errou" id="errou" style="display: none;">
+    <div class="erradoimg"><img src="errado.png" alt=""></div>
+    <div class="derrota"><h1>Você errou</h1></div>
+    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente" onclick="tenteNovamente6()">
+</div>
+ <script src="script.js"></script>
+</body>
+</html>

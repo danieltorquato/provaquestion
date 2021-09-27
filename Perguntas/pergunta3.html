@@ -6,19 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
-    <title>Quiz</title>
+    <title>Prova</title>
 </head>
 <body>
-    <h1>Quiz</h1>
- <h2>Teste seu Conhecimento em Inglês</h2>
+    <h1>Prova</h1>
+ <h2>Teste seu nível de Excel</h2>
  <div class="geral">
      <p class="texto">Pergunta 3</p>
-     <p class="perguntas" id="perguntas"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam enim at ab neque accusantium laboriosam dolore repellat cum architecto odit! Sit voluptates dolore molestias optio necessitatibus, reprehenderit eos minima itaque.s Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus esse nulla unde sit labore quia voluptatum illo maxime ea! Suscipit expedita et quasi ullam rem? Quaerat unde aliquam assumenda itaque!</p>
+     <img src="pllanilha.png" alt="" class="planilha"><br><br><br>
+     <p class="perguntas" id="perguntas"> Considere a fórmula <i><b>"=SE(E(E2>80;E4=C2;E6=A2;I2=1);H16;SE(E(E2<=80;E4>0;E6>0);"Dentro das normas";"erro"))" na célula G2</b></i> e E2=68, E4=C2, E6=A2. O que vai nos retornar?</p><br></p>
      <div class="respostas" id="respostas">
-     <div><input type="button" value="A)" class="inputa" id="a"></div>
-     <div><input type="button" value="B)" class="inputb" id="b" onclick="respostaCerta()"></div>
-     <div><input type="button" value="C)" class="inputc" id="c"></div>
-     <div><input type="button" value="D)" class="inputd" id="d"></div>
+     <div><input type="button" value="A) Dentro das normas" class="inputa" id="a" onclick="respostaCerta()"></div>
+     <div><input type="button" value="B) R$103,00" class="inputb" id="b" onclick="respostaErrada()"></div>
+     <div><input type="button" value="C) Erro" class="inputc" id="c" onclick="respostaErrada()"></div>
+     <div><input type="button" value="D) R$227,00" class="inputd" id="d"  onclick="respostaErrada()"></div>
      <div><input type="button" value="Menu" class="botaovoltar" onclick="voltarAoMenu()"></div>
      
      </div>
@@ -32,7 +33,7 @@
  <div class="errou" id="errou" style="display: none;">
     <div class="erradoimg"><img src="errado.png" alt=""></div>
     <div class="derrota"><h1>Você errou</h1></div>
-    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente">
+    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente" onclick="tenteNovamente3()">
 </div>
  <script src="script.js"></script>
 </body>

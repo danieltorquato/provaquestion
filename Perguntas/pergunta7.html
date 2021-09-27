@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Prova</title>
+</head>
+<body>
+    <h1>Prova</h1>
+ <h2>Teste seu nível de Excel</h2>
+ <div class="geral1">
+     <p class="texto">Pergunta 7</p><br><br>
+     <p class="perguntas" id="perguntas"> Para realçar uma célula de uma cor conforme o que está escrito nela ou caso seja maior ou menor que um número, qual ferramenta eu utilizo?</p>
+     <div class="respostas" id="respostas">
+     <div><input type="button" value="A) Formatação Condicional" class="inputa1" id="a" onclick="respostaCerta()"></div>
+     <div><input type="button" value="B)Função SE" class="inputb1" id="b" onclick="respostaErrada()"></div>
+     <div><input type="button" value="C) Balde de Tinta (Cor do preenchimento)" class="inputc1" id="c" onclick="respostaErrada()"></div>
+     <div><input type="button" value="D) Sombreamento" class="inputd1" id="d"  onclick="respostaErrada()"></div>
+     <div><input type="button" value="Menu" class="botaovoltar1" onclick="voltarAoMenu()"></div>
+     
+     </div>
+     
+ </div>
+ <div class="acertou" id="acertou" style="display: none;">
+     <div class="certoimg"><img src="certo1.png" alt=""></div>
+     <div class="vitoria"><h1>Você acertou</h1></div>
+     <input type="button" value="Próxima Questão" class="proximaquestao" id="proximaquestao" onclick="proximaQuestao7()">
+ </div>
+ <div class="errou" id="errou" style="display: none;">
+    <div class="erradoimg"><img src="errado.png" alt=""></div>
+    <div class="derrota"><h1>Você errou</h1></div>
+    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente" onclick="tenteNovamente7()">
+</div>
+ <script src="script.js"></script>
+</body>
+</html>

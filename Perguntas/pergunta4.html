@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Prova</title>
+</head>
+<body>
+    <h1>Prova</h1>
+ <h2>Teste seu nível de Excel</h2>
+ <div class="geral">
+     <p class="texto">Pergunta 4</p>
+     <img src="pllanilha1.png" alt="" class="planilha1"><br><br><br><br><br><br>
+     <p class="perguntas" id="perguntas"> Qual aba utilizamos para as seguintes funções:
+         <ul class="listao">
+        <li>Tabelas</li>
+        <li>Tabelas Dinâmicas</li>
+        <li>Gráficos</li>
+        <li>Cabeçalho e Rodapé</li>
+        <li>Equação</li>
+        <li>Hiperlink</li>
+        <li>Caixa de Texto</li>
+         </ul>
+     </p>
+     <div class="respostas" id="respostas">
+     <div><input type="button" value="A) Arquivo" class="inputa" id="a" onclick="respostaErrada()"></div>
+     <div><input type="button" value="B) Exibir" class="inputb" id="b" onclick="respostaErrada()"></div>
+     <div><input type="button" value="C) Inserir" class="inputc" id="c" onclick="respostaCerta()"></div>
+     <div><input type="button" value="D) Dados" class="inputd" id="d"  onclick="respostaErrada()"></div>
+     <div><input type="button" value="Menu" class="botaovoltar" onclick="voltarAoMenu()"></div>
+     
+     </div>
+     
+ </div>
+ <div class="acertou" id="acertou" style="display: none;">
+     <div class="certoimg"><img src="certo1.png" alt=""></div>
+     <div class="vitoria"><h1>Você acertou</h1></div>
+     <input type="button" value="Próxima Questão" class="proximaquestao" id="proximaquestao" onclick="proximaQuestao4()">
+ </div>
+ <div class="errou" id="errou" style="display: none;">
+    <div class="erradoimg"><img src="errado.png" alt=""></div>
+    <div class="derrota"><h1>Você errou</h1></div>
+    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente" onclick="tenteNovamente4()">
+</div>
+ <script src="script.js"></script>
+</body>
+</html>

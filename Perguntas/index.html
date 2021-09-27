@@ -6,21 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
-    <title>Quiz</title>
+    <title>Prova</title>
 </head>
 <body>
-    <h1>Quiz</h1>
- <h2>Teste seu Conhecimento em Inglês</h2>
- <div class="geral">
+    <h1>Prova</h1>
+ <h2>Teste seu nível de Excel</h2>
+ <div class="geral1">
      <p class="texto">Pergunta 1</p>
      <p class="perguntas" id="perguntas"> O que é Excel?</p>
      <div class="respostas" id="respostas">
-     <div><input type="button" value="A) Programa de computador" class="inputa" id="a"onclick="respostaErrada()"></div>
-     <div><input type="button" value="B) Programa de edição de texto" class="inputb" id="b" onclick="respostaErrada()"></div>
-     <div><input type="button" value="C) Programa de edição e criação de Planilhas e automação" class="inputc" id="c"onclick="respostaCerta()"></div>
-     <div><input type="button" value="D) Programa para criação " class="inputd" id="d" onclick="respostaErrada()"></div>
-     <div><input type="button" value="Menu" class="botaovoltar" onclick="voltarAoMenu()"></div>
-     
+     <div><input type="button" value="A) Programa de computador" class="inputa1" id="a"onclick="respostaErrada()"></div>
+     <div><input type="button" value="B) Programa de edição de texto" class="inputb1" id="b" onclick="respostaErrada()"></div>
+     <div><input type="button" value="C) Programa de edição e criação de Planilhas e automação" class="inputc1" id="c"onclick="respostaCerta()"></div>
+     <div><input type="button" value="D) Programa para criação de Jogos" class="inputd1" id="d" onclick="respostaErrada()"></div>
+     <div><input type="button" value="Menu" class="botaovoltar1" onclick="voltarAoMenu()"></div>
+  <!--    onclick="respostaCerta()" -->
      </div>
      
  </div>
@@ -32,7 +32,7 @@
  <div class="errou" id="errou" style="display: none;">
     <div class="erradoimg"><img src="errado.png" alt=""></div>
     <div class="derrota"><h1>Você errou</h1></div>
-    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente">
+    <input type="button" value="Tentar Novamente" class="tentarnovamente" id="tentarnovamente" onclick="reiniciar()">
 </div>
  <script src="script.js">
      
